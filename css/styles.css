@@ -1,0 +1,172 @@
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --main-font-size: 16px;
+
+  --logo-font-family: "Raleway", sans-serif;
+
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --light-color: #f4f4fd;
+  --white-bg-color: #ffffff;
+  --success-color: #31d0aa;
+  --subtitle-text: #8e8f99;
+  --accent-color: #e7e9fc;
+  --modal-overlay-color: #2e2f42;
+  --hero-bg-color: #2e2f42;
+  --modal-bg-color: #fcfcfc;
+}
+
+/* ======= BASE STYLES ======= */
+
+body {
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+
+  background-color: var(--white-bg-color);
+  color: var(--text-color);
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* ======= COMPONENT STYLES ======= */
+
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+.section-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.logo-light-theme {
+  color: var(--dark-color);
+}
+
+.logo-dark-theme {
+  color: var(--light-color);
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--pressed-state-color);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/* ======= HEADER STYLES ======= */
+
+.nav-item {
+  font-weight: 500;
+  color: var(--dark-color);
+}
+
+.contact-item {
+  color: inherit;
+}
+
+/* ======= HERO SECTION STYLES ======= */
+
+.hero-section {
+  background-color: var(--dark-color);
+}
+
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--white-bg-color);
+}
+
+.order-btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white-bg-color);
+  background-color: var(--primary-brand-color);
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
+/* ======= ADVANTAGES SECTION STYLES ======= */
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+
+/* ======= TEAM SECTION STYLES ======= */
+
+.team-section {
+  background-color: var(--light-color);
+}
+
+.team-card {
+  background-color: var(--white-bg-color);
+}
+
+/* ======= PORTFOLIO SECTION STYLES ======= */
+
+.filter-btn {
+  font-weight: 500;
+
+  background-color: var(--accent-color);
+  color: var(--primary-brand-color);
+}
+
+.active-filter {
+  background-color: var(--pressed-state-color);
+  color: var(--white-bg-color);
+}
+
+.filter-btn:hover,
+.filter-btn:active {
+  background-color: var(--pressed-state-color);
+  color: var(--white-bg-color);
+}
+
+.portfolio-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+
+/* ======= FOOTER SYLES ======= */
+
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer-text {
+  color: var(--light-color);
+}

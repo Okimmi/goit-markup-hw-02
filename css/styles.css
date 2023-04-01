@@ -155,12 +155,12 @@ body {
 .filter-btn {
   font-weight: 500;
 
-  background-color: var(--accent-color);
+  background-color: var(--light-color);
   color: var(--primary-brand-color);
 }
 
 .filter-btn:hover,
-.filter-btn:active {
+.filter-btn:focus {
   background-color: var(--pressed-state-color);
   color: var(--white-bg-color);
 }

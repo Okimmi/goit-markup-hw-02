@@ -26,9 +26,6 @@ body {
 
   background-color: var(--white-bg-color);
   color: var(--text-color);
-
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .link {
@@ -97,11 +94,15 @@ body {
 
 .nav-item {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 
 .contact-item {
   color: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .address {
@@ -136,6 +137,11 @@ body {
 
 /* ======= ADVANTAGES SECTION STYLES ======= */
 
+.list-item-dscr {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* ======= TEAM SECTION STYLES ======= */
 
 .team-section {
@@ -147,6 +153,8 @@ body {
 }
 
 .job-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-size: 16px;
 }
 
@@ -154,6 +162,8 @@ body {
 
 .filter-btn {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 
   background-color: var(--light-color);
   color: var(--primary-brand-color);
@@ -186,5 +196,7 @@ body {
 }
 
 .footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--light-color);
 }

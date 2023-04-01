@@ -55,7 +55,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: var(--dark-color);
 }
 
@@ -76,6 +78,19 @@ body {
 
 .btn {
   cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.list-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
 
 /* ======= HEADER STYLES ======= */
@@ -89,6 +104,9 @@ body {
   color: inherit;
 }
 
+.address {
+  font-style: normal;
+}
 /* ======= HERO SECTION STYLES ======= */
 
 .hero-section {
@@ -99,6 +117,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-bg-color);
 }
@@ -117,13 +136,6 @@ body {
 
 /* ======= ADVANTAGES SECTION STYLES ======= */
 
-.advantages-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--dark-color);
-}
-
 /* ======= TEAM SECTION STYLES ======= */
 
 .team-section {
@@ -134,6 +146,10 @@ body {
   background-color: var(--white-bg-color);
 }
 
+.job-title {
+  font-size: 16px;
+}
+
 /* ======= PORTFOLIO SECTION STYLES ======= */
 
 .filter-btn {
@@ -141,11 +157,6 @@ body {
 
   background-color: var(--accent-color);
   color: var(--primary-brand-color);
-}
-
-.active-filter {
-  background-color: var(--pressed-state-color);
-  color: var(--white-bg-color);
 }
 
 .filter-btn:hover,
@@ -158,9 +169,16 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 
+.portfolio-card-dscr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
 /* ======= FOOTER SYLES ======= */
 
 .footer {
